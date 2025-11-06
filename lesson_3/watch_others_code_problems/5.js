@@ -106,12 +106,12 @@ rules:
   - reassign `down` to `true`
 
 -- DECODING --
-h e l l o w o r l d -->   h . . . . . o . . .  -->
+h e l l o w o r l d -->   h . . . . . o . . .
                           . e . . . w . r . .
                           . . l . o . . . l .
                           . . . l . . . . . d
 --> [h o e w r l o l l d]
-10 chars * 4 rails = 40 spots - 10 char = 30 empty spaces
+10 chars * 4 rails = 40 spots - 10 chars = 30 empty spaces
 Find Pattern Structure (C for char placement)
 C . . . . . C . . .
 . C . . . C . C . .
